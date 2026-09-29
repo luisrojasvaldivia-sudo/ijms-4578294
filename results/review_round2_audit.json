@@ -1,0 +1,34 @@
+{
+  "scope": "Four interface unit tests on untrained abstract graphs; no molecular training or chemical transfer experiment.",
+  "atom_relabeling": {
+    "max_embedding_residual": 8.881784197001252e-16,
+    "atom_relabelings": 36
+  },
+  "species_relabeling": {
+    "permutations": 6,
+    "states_per_permutation": 40,
+    "max_residuals": {
+      "energy": 3.469446951953614e-18,
+      "gradient": 0.0,
+      "activity": 2.7755575615628914e-17
+    }
+  },
+  "pure_limits": {
+    "max_pure_energy": 0.0,
+    "max_resident_ln_gamma": 0.0
+  },
+  "composition_derivative": {
+    "centered_step": 1e-06,
+    "max_ambient_gradient_residual": 4.610783976843891e-12
+  },
+  "archived_phase_convergence_audit": {
+    "total_records": 100,
+    "all_feed_label_agreements_including_fallbacks": 98,
+    "jointly_converged_records": 99,
+    "jointly_converged_agreements": 97,
+    "unresolved_zero_based_indices": [
+      47
+    ],
+    "interpretation": "Agreement with numerical reference only; no continuum global certificate. Failed-solver single-feed fallbacks are unresolved."
+  }
+}

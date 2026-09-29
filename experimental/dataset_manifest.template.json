@@ -1,0 +1,18 @@
+{
+  "dataset_title": "AUTHOR ACTION REQUIRED",
+  "dataset_version": "AUTHOR ACTION REQUIRED",
+  "source_doi_or_record_url": "AUTHOR ACTION REQUIRED",
+  "license_or_access_terms": "AUTHOR ACTION REQUIRED",
+  "retrieval_date_utc": "AUTHOR ACTION REQUIRED",
+  "curation_protocol": "AUTHOR ACTION REQUIRED",
+  "predeclared_falsifiers": {
+    "binary_endpoint_mae_max": null,
+    "ternary_tieline_mae_max": null,
+    "component_disjoint_test_required": true
+  },
+  "split_strategy": "component-disjoint",
+  "split_file_sha256": "AUTHOR ACTION REQUIRED",
+  "data_file_sha256": "AUTHOR ACTION REQUIRED",
+  "redistribution_authorized": false
+}
+

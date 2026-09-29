@@ -1,0 +1,112 @@
+{
+  "epistemic_label": "E7 - preliminary numerical results on synthetic NRTL systems",
+  "exp1": {
+    "potential_mae": 0.0010070086252603958,
+    "direct_mae": 0.0022558596088104693,
+    "potential_g_mae": 0.0002989434824021501,
+    "potential_train_seconds": 0.27376095099998565,
+    "direct_train_seconds": 0.21614082600035545,
+    "potential_iterations": 91,
+    "potential_converged": true,
+    "potential_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+    "parameter_count_potential": 225,
+    "parameter_count_direct": 746,
+    "mae_improvement_factor": 2.240159172645757,
+    "paired_mae_difference": 0.0012488509835500738,
+    "paired_bootstrap_ci95": [
+      0.0011792009246247295,
+      0.0013257526722721942
+    ],
+    "wilcoxon_statistic": 2613558.0,
+    "wilcoxon_pvalue": 7.68730858205186e-262
+  },
+  "gibbs_duhem": {
+    "rows": [
+      {
+        "temperature": 300.0,
+        "reference": 1.8851391623395096e-06,
+        "potential": 1.7656856488495551e-06,
+        "direct": 0.0694624558003384
+      },
+      {
+        "temperature": 350.0,
+        "reference": 1.2290465169770152e-06,
+        "potential": 1.2883559190556127e-06,
+        "direct": 0.030777958077047727
+      },
+      {
+        "temperature": 400.0,
+        "reference": 8.456435083839191e-07,
+        "potential": 8.588343851782206e-07,
+        "direct": 0.017879922122940616
+      },
+      {
+        "temperature": 440.0,
+        "reference": 6.46417882031964e-07,
+        "potential": 6.071204441632532e-07,
+        "direct": 0.02072732119116124
+      }
+    ],
+    "potential_mean": 1.1299990993116605e-06,
+    "direct_mean": 0.034711914297871994,
+    "reference_mean": 1.151561767433102e-06,
+    "potential_pure_residual": 0.0,
+    "direct_pure_residual": 0.012620089832668824
+  },
+  "exp2": {
+    "hausdorff_scaled": 0.0011519815313582107,
+    "composition_mae": 0.00025439592150827147,
+    "isotherms": 40
+  },
+  "ternary_fit": {
+    "ln_gamma_mae": 0.0011410728175490325,
+    "g_excess_mae": 0.0002397934127406902,
+    "train_seconds": 7.555842091000159,
+    "iterations": 397,
+    "converged": true,
+    "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+  },
+  "exp3": {
+    "phase_accuracy": 1.0,
+    "matched_two_phase": 6,
+    "feed_count": 6,
+    "tie_line_mae": 6.10980968683056e-05,
+    "beta_mae": 6.167310359276683e-05,
+    "tpd_median": -1.2317608409375408e-07,
+    "tpd_worst": -6.300508588738464e-07
+  },
+  "exp4": {
+    "spearman_rho": 0.9012677363558381,
+    "spearman_pvalue": 4.2002011106086775e-292,
+    "ood_capture_top_half": 0.97,
+    "mae_in_domain": 0.0007470451183656361,
+    "mae_out_domain": 0.018220462363378032,
+    "ood_error_ratio": 24.390042736963782,
+    "mae_full_coverage": 0.009483753740871835,
+    "mae_40pct_coverage": 0.0006344437066504976,
+    "fit_seconds_total": 1.4528420060000826,
+    "converged_models": 5,
+    "ensemble_size": 5
+  },
+  "structural": {
+    "permutation_residual": 8.881784197001252e-16
+  },
+  "exp5": {
+    "reference_recovery": 0.7184422108505213,
+    "model_recovery": 0.7191749325805294,
+    "recovery_abs_error": 0.0007327217300081568,
+    "max_balance_error": 1.1102230246251565e-16,
+    "reference_seconds_mean": 0.27202171199985514,
+    "model_seconds_mean": 0.8890696262499205,
+    "runtime_ratio": 3.2683774383803375
+  },
+  "runtime_seconds_total": 34.052507950999825,
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "autograd": "not-exposed"
+  }
+}

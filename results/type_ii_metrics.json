@@ -1,0 +1,145 @@
+{
+  "epistemic_label": "E7 synthetic type-II topology",
+  "nrtl_parameters": {
+    "tau_constant": [
+      [
+        0.0,
+        0.25,
+        2.0
+      ],
+      [
+        0.25,
+        0.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        0.0
+      ]
+    ],
+    "alpha": [
+      [
+        0.0,
+        0.2,
+        0.2
+      ],
+      [
+        0.2,
+        0.0,
+        0.2
+      ],
+      [
+        0.2,
+        0.2,
+        0.0
+      ]
+    ]
+  },
+  "fit_replicates": [
+    {
+      "seed": 0,
+      "test_mae": 0.0008327606202828044,
+      "converged": true
+    },
+    {
+      "seed": 1,
+      "test_mae": 0.0007869856017962907,
+      "converged": true
+    },
+    {
+      "seed": 2,
+      "test_mae": 0.0008234411001049333,
+      "converged": true
+    },
+    {
+      "seed": 3,
+      "test_mae": 0.0011858751725390506,
+      "converged": true
+    },
+    {
+      "seed": 4,
+      "test_mae": 0.0009264634516734287,
+      "converged": true
+    },
+    {
+      "seed": 5,
+      "test_mae": 0.0006915791890924951,
+      "converged": true
+    },
+    {
+      "seed": 6,
+      "test_mae": 0.000774067197042592,
+      "converged": true
+    },
+    {
+      "seed": 7,
+      "test_mae": 0.000675312918063797,
+      "converged": true
+    },
+    {
+      "seed": 8,
+      "test_mae": 0.0008196959384959469,
+      "converged": true
+    },
+    {
+      "seed": 9,
+      "test_mae": 0.0007458398855829402,
+      "converged": true
+    }
+  ],
+  "fit_test_mae": {
+    "median": 0.0008033407701461188,
+    "q1": 0.0007528967134478532,
+    "q3": 0.0008304307402383366,
+    "minimum": 0.000675312918063797,
+    "maximum": 0.0011858751725390506
+  },
+  "feed_count": 100,
+  "reference_one_phase": 51,
+  "reference_two_phase": 49,
+  "confusion_matrix_rows_reference": [
+    [
+      49,
+      2
+    ],
+    [
+      3,
+      46
+    ]
+  ],
+  "phase_accuracy": 0.95,
+  "phase_accuracy_clopper_pearson_95": [
+    0.8871650888945373,
+    0.9835681208179479
+  ],
+  "boundary_stress_seed_accuracy": {
+    "median": 0.85,
+    "q1": 0.8125,
+    "q3": 0.85,
+    "minimum": 0.75,
+    "maximum": 0.95
+  },
+  "boundary_stress_indices": [
+    14,
+    16,
+    24,
+    47,
+    49,
+    59,
+    18,
+    7,
+    50,
+    27,
+    58,
+    55,
+    57,
+    25,
+    68,
+    0,
+    22,
+    54,
+    48,
+    38
+  ]
+}

@@ -1,0 +1,1439 @@
+{
+  "scope": "Corrective numerical rerun, fixed feed and frozen models; no retraining or global certificate.",
+  "temperature_K": 323.15,
+  "source_sha256": "0642a14c4a3589c08eda27605f8341759c28b3175e207667fa1108448928981f",
+  "model_sha256": "3e1ec08d5dbf9e93f037bfa7a25c7320b0cc38f139ade941e50c03840f2cb1d9",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "recovered_records": [
+    {
+      "zero_based_index": 47,
+      "feed": [
+        0.6555114676633969,
+        7.803357266475255e-08,
+        0.34448845430303054
+      ],
+      "legacy_phase_floor": 2e-06,
+      "components_below_legacy_floor": [
+        1
+      ],
+      "infeasibility_reason": "If both phase compositions are >= eps, their convex combination is >= eps; feed violates this necessary condition.",
+      "solutions": {
+        "reference": {
+          "n_phases": 2,
+          "success": true,
+          "beta": 0.6581285469860035,
+          "phase_a": [
+            0.9908460926874874,
+            8.898348884501225e-08,
+            0.009153818329023697
+          ],
+          "phase_b": [
+            0.009966811695395495,
+            5.695415125708733e-08,
+            0.9900331313504531
+          ],
+          "objective": -0.008890672229058073,
+          "single_energy": 0.34630962158336775,
+          "energy_gain": 0.35520029381242585,
+          "separation_l1": 1.961758626042859,
+          "chemical_potential_max_residual": 5.873773689657469e-15,
+          "material_balance_max_residual": 1.1102230246251565e-16,
+          "start_count": 56,
+          "accepted_two_phase_count": 54,
+          "energy_recovery_count": 54,
+          "start_records": [
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058021,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00889067222905802,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057914,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057912,
+              "chemical_potential_max_residual": 2.8640284588377085e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": 0.3463096215833677,
+              "chemical_potential_max_residual": 4.440892098500626e-16,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.6653345369377348e-16,
+              "energy_gain": 5.551115123125783e-17
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058018,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058021,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058058,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": 0.3463096215833678,
+              "chemical_potential_max_residual": 2.220446049250313e-16,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.665336522171205e-16,
+              "energy_gain": -5.551115123125783e-17
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058073,
+              "chemical_potential_max_residual": 5.873773689657469e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.35520029381242585
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058027,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058058,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057942,
+              "chemical_potential_max_residual": 3.23040205696401e-14,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9617586260428581,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058073,
+              "chemical_potential_max_residual": 5.873773689657469e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.35520029381242585
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058047,
+              "chemical_potential_max_residual": 4.999473057765158e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 5.329070518200751e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058073,
+              "chemical_potential_max_residual": 5.873773689657469e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.35520029381242585
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058027,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057914,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058058,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058066,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057914,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058025,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058058,
+              "chemical_potential_max_residual": 4.9855952699573436e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058053,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058061,
+              "chemical_potential_max_residual": 4.992534163861251e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058027,
+              "chemical_potential_max_residual": 2.47198095326695e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229057919,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.961758626042859,
+              "energy_gain": 0.3552002938124257
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.008890672229058028,
+              "chemical_potential_max_residual": 5.329070518200751e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00889067222905802,
+              "chemical_potential_max_residual": 2.465042059363043e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9617586260428588,
+              "energy_gain": 0.3552002938124258
+            }
+          ],
+          "tpd_checks": [
+            {
+              "phase": "phase_a",
+              "random_starts": 50,
+              "minimum_successful": -1.3357370765021415e-16,
+              "minimum_all_observed": -1.3357370765021415e-16,
+              "successful_starts": 100,
+              "failed_starts": 0,
+              "total_starts": 100,
+              "reference_tpd": 0.0,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_a",
+              "random_starts": 100,
+              "minimum_successful": -1.3357370765021415e-16,
+              "minimum_all_observed": -1.3357370765021415e-16,
+              "successful_starts": 150,
+              "failed_starts": 0,
+              "total_starts": 150,
+              "reference_tpd": 0.0,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_a",
+              "random_starts": 200,
+              "minimum_successful": -1.3357370765021415e-16,
+              "minimum_all_observed": -1.3357370765021415e-16,
+              "successful_starts": 250,
+              "failed_starts": 0,
+              "total_starts": 250,
+              "reference_tpd": 0.0,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 50,
+              "minimum_successful": 8.673617379884035e-18,
+              "minimum_all_observed": 8.673617379884035e-18,
+              "successful_starts": 100,
+              "failed_starts": 0,
+              "total_starts": 100,
+              "reference_tpd": 3.469446951953614e-18,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 100,
+              "minimum_successful": 8.673617379884035e-18,
+              "minimum_all_observed": 8.673617379884035e-18,
+              "successful_starts": 150,
+              "failed_starts": 0,
+              "total_starts": 150,
+              "reference_tpd": 3.469446951953614e-18,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 200,
+              "minimum_successful": 8.673617379884035e-18,
+              "minimum_all_observed": 8.673617379884035e-18,
+              "successful_starts": 250,
+              "failed_starts": 0,
+              "total_starts": 250,
+              "reference_tpd": 3.469446951953614e-18,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            }
+          ],
+          "elapsed_seconds_not_a_speed_benchmark": 5.407542238000133
+        },
+        "model": {
+          "n_phases": 2,
+          "success": true,
+          "beta": 0.6581466257302332,
+          "phase_a": [
+            0.9906710300248778,
+            8.903705274511954e-08,
+            0.00932888093806937
+          ],
+          "phase_b": [
+            0.010251974406615691,
+            5.684933453443479e-08,
+            0.9897479687440497
+          ],
+          "objective": -0.009109647128242688,
+          "single_energy": 0.3462424451172197,
+          "energy_gain": 0.3553520922454624,
+          "separation_l1": 1.9608381756119604,
+          "chemical_potential_max_residual": 1.7763568394002505e-15,
+          "material_balance_max_residual": 1.1102230246251565e-16,
+          "start_count": 56,
+          "accepted_two_phase_count": 54,
+          "energy_recovery_count": 54,
+          "start_records": [
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242677,
+              "chemical_potential_max_residual": 1.4727802311043092e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242672,
+              "chemical_potential_max_residual": 1.4727802311043092e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242688,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824261,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.35535209224546227
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242656,
+              "chemical_potential_max_residual": 1.3921155894713877e-14,
+              "material_balance_max_residual": 1.6653345369377348e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242686,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824261,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.35535209224546227
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242616,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": 0.3462424451172195,
+              "chemical_potential_max_residual": 7.216449660063518e-16,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.6653354633800209e-16,
+              "energy_gain": 1.6653345369377348e-16
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242675,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824263,
+              "chemical_potential_max_residual": 2.940356291780688e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242688,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": 0.3462424451172196,
+              "chemical_potential_max_residual": 4.440892098500626e-16,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 2.220446181599211e-16,
+              "energy_gain": 1.1102230246251565e-16
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824268,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824262,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242616,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 5.329070518200751e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824263,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 7.105427357601002e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242611,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242611,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824261,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 0.0,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.35535209224546227
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242616,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824262,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824263,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242632,
+              "chemical_potential_max_residual": 3.2572902708416507e-14,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.96083817561196,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242616,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242616,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242611,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 9.315465065995454e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824262,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824262,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824268,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242688,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 9.315465065995454e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242611,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242675,
+              "chemical_potential_max_residual": 1.4727802311043092e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242686,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242688,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 9.454242944073599e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824262,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242625,
+              "chemical_potential_max_residual": 2.968111867396317e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242611,
+              "chemical_potential_max_residual": 2.9542340795885025e-15,
+              "material_balance_max_residual": 5.551115123125783e-17,
+              "separation_l1": 1.9608381756119608,
+              "energy_gain": 0.3553520922454623
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.00910964712824268,
+              "chemical_potential_max_residual": 9.315465065995454e-16,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242677,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242682,
+              "chemical_potential_max_residual": 3.552713678800501e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            },
+            {
+              "minimizer_success": true,
+              "refinement_success": true,
+              "accepted": true,
+              "objective": -0.009109647128242686,
+              "chemical_potential_max_residual": 1.7763568394002505e-15,
+              "material_balance_max_residual": 1.1102230246251565e-16,
+              "separation_l1": 1.9608381756119604,
+              "energy_gain": 0.3553520922454624
+            }
+          ],
+          "tpd_checks": [
+            {
+              "phase": "phase_a",
+              "random_starts": 50,
+              "minimum_successful": -9.957312752106873e-16,
+              "minimum_all_observed": -9.957312752106873e-16,
+              "successful_starts": 100,
+              "failed_starts": 0,
+              "total_starts": 100,
+              "reference_tpd": -1.0408340855860843e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_a",
+              "random_starts": 100,
+              "minimum_successful": -9.957312752106873e-16,
+              "minimum_all_observed": -9.957312752106873e-16,
+              "successful_starts": 150,
+              "failed_starts": 0,
+              "total_starts": 150,
+              "reference_tpd": -1.0408340855860843e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_a",
+              "random_starts": 200,
+              "minimum_successful": -9.957312752106873e-16,
+              "minimum_all_observed": -9.957312752106873e-16,
+              "successful_starts": 250,
+              "failed_starts": 0,
+              "total_starts": 250,
+              "reference_tpd": -1.0408340855860843e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 50,
+              "minimum_successful": -2.949029909160572e-17,
+              "minimum_all_observed": -2.949029909160572e-17,
+              "successful_starts": 100,
+              "failed_starts": 0,
+              "total_starts": 100,
+              "reference_tpd": -2.0816681711721685e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 100,
+              "minimum_successful": -2.949029909160572e-17,
+              "minimum_all_observed": -2.949029909160572e-17,
+              "successful_starts": 150,
+              "failed_starts": 0,
+              "total_starts": 150,
+              "reference_tpd": -2.0816681711721685e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            },
+            {
+              "phase": "phase_b",
+              "random_starts": 200,
+              "minimum_successful": -8.326672684688674e-17,
+              "minimum_all_observed": -8.326672684688674e-17,
+              "successful_starts": 250,
+              "failed_starts": 0,
+              "total_starts": 250,
+              "reference_tpd": -2.0816681711721685e-17,
+              "log_ratio_bounds": [
+                -35.0,
+                35.0
+              ],
+              "global_certificate": false
+            }
+          ],
+          "elapsed_seconds_not_a_speed_benchmark": 26.05971822499987
+        }
+      }
+    }
+  ],
+  "corrected_panel": {
+    "total": 100,
+    "agreement_count": 98,
+    "jointly_converged": 100,
+    "confusion_matrix_rows_reference_1_2": [
+      [
+        47,
+        0
+      ],
+      [
+        2,
+        51
+      ]
+    ],
+    "reference_one_phase": 47,
+    "reference_two_phase": 53,
+    "boundary_strata": [
+      {
+        "stratum": "near",
+        "count": 33,
+        "agreement_count": 32,
+        "agreement": 0.9696969696969697
+      },
+      {
+        "stratum": "intermediate",
+        "count": 33,
+        "agreement_count": 32,
+        "agreement": 0.9696969696969697
+      },
+      {
+        "stratum": "interior",
+        "count": 34,
+        "agreement_count": 34,
+        "agreement": 1.0
+      }
+    ],
+    "tie_line_mae": 0.0007315887630843929,
+    "beta_mae": 0.0010188318305920086,
+    "joint_two_phase_count": 51
+  },
+  "protocol": {
+    "allocation_bounds": [
+      1e-10,
+      0.9999999999
+    ],
+    "deterministic_starts": 24,
+    "random_starts": 32,
+    "seed": 947,
+    "mu_tolerance": 1e-08,
+    "mass_tolerance": 1e-12,
+    "tpd_tolerance": 1e-08,
+    "unchanged_other_records": 99
+  }
+}

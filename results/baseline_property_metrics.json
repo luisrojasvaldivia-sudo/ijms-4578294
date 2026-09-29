@@ -1,0 +1,80 @@
+{
+  "seed": 0,
+  "isotherms": 20,
+  "grid_size": 10400,
+  "note": "Operational hulls for direct-output models use gE=sum_i x_i ln(gamma_i); this does not restore integrability.",
+  "methods": {
+    "hard_potential": {
+      "infinite_dilution_mae": 0.012034106109534093,
+      "infinite_dilution_max": 0.024800711163016853,
+      "gibbs_duhem_residual_n4801": 1.0680594829749112e-07,
+      "binodal_g_definition": "native scalar potential",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.0002495239926916088,
+      "binodal_endpoint_max_10400": 0.001343590729877775
+    },
+    "direct_matched": {
+      "infinite_dilution_mae": 0.013538081623988396,
+      "infinite_dilution_max": 0.04798417814983402,
+      "gibbs_duhem_residual_n4801": 0.035508608119548084,
+      "binodal_g_definition": "operational sum_i x_i ln(gamma_i)",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.003716467929608616,
+      "binodal_endpoint_max_10400": 0.004798538320992418
+    },
+    "soft_gd": {
+      "infinite_dilution_mae": 0.02643595685998168,
+      "infinite_dilution_max": 0.06284819851486123,
+      "gibbs_duhem_residual_n4801": 0.005123775593151244,
+      "binodal_g_definition": "operational sum_i x_i ln(gamma_i)",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.000326300605827487,
+      "binodal_endpoint_max_10400": 0.001727473795557266
+    },
+    "redlich_kister": {
+      "infinite_dilution_mae": 0.0069072863966541664,
+      "infinite_dilution_max": 0.015230521650098083,
+      "gibbs_duhem_residual_n4801": 1.136592859491632e-07,
+      "binodal_g_definition": "native scalar potential",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.00015115395711126278,
+      "binodal_endpoint_max_10400": 0.000383883065679394
+    },
+    "nrtl_fixed_alpha": {
+      "infinite_dilution_mae": 0.0008043423808974937,
+      "infinite_dilution_max": 0.001414059180577354,
+      "gibbs_duhem_residual_n4801": 1.1657697717639678e-07,
+      "binodal_g_definition": "native scalar potential",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 3.598903740743885e-05,
+      "binodal_endpoint_max_10400": 9.597076641987279e-05
+    },
+    "nrtl_free_alpha": {
+      "infinite_dilution_mae": 0.0021670541703450175,
+      "infinite_dilution_max": 0.0029536650801444964,
+      "gibbs_duhem_residual_n4801": 1.1525591554352153e-07,
+      "binodal_g_definition": "native scalar potential",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 7.67766131358723e-05,
+      "binodal_endpoint_max_10400": 0.00019194153283974558
+    },
+    "gaussian_process": {
+      "infinite_dilution_mae": 0.05448172023695996,
+      "infinite_dilution_max": 0.09778506155602296,
+      "gibbs_duhem_residual_n4801": 0.1294672106187461,
+      "binodal_g_definition": "operational sum_i x_i ln(gamma_i)",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.010316857390133667,
+      "binodal_endpoint_max_10400": 0.03109452832003079
+    },
+    "uniquac": {
+      "infinite_dilution_mae": 0.24475986256489257,
+      "infinite_dilution_max": 0.4121203617173723,
+      "gibbs_duhem_residual_n4801": 1.7536938241332436e-07,
+      "binodal_g_definition": "operational sum_i x_i ln(gamma_i)",
+      "binodal_matched_isotherms": 20,
+      "binodal_endpoint_mae_10400": 0.007900793345513992,
+      "binodal_endpoint_max_10400": 0.024280603904221598
+    }
+  }
+}
